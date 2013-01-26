@@ -96,7 +96,9 @@ pickupList = ["Satelit",
 				"Fuel_can"];
 
 //Object List - Random Spawns.
-objectList = ["Land_Barrel_water",
+objectList = [	"Fort_Nest_M240",
+		"SearchLight",
+		"Land_Barrel_water",
 				"Land_prebehlavka",
 				"Land_leseni2x",
                 "Fort_Crate_wood",
