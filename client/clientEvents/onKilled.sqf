@@ -101,6 +101,7 @@ if(((getPlayerUID player) in members)) then
 					{
 						player setVariable["medkits",0,false];
 					};
+		};
 
         };
 
