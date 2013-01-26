@@ -70,6 +70,7 @@ if(((getPlayerUID player) in members)) then
     player removeWeapon "ItemGPS";
     player removeWeapon "revolver_gold_EP1";
     player removeWeapon "ItemGPS";
+    player setVariable["cmoney",0,false];
     player setVariable["medkits",0,false];
     player setVariable["repairkits",0,false];
 
@@ -83,52 +84,12 @@ if(((getPlayerUID player) in members)) then
             //add player uid to members1
             player groupChat format[":: TESTING REWARDS SYS :: IN ARRAY MEMBERS2 :: REMOVED MEMBERS2 REWARDS"];
 
-            	if((player getVariable "cmoney") > 0) then 
-            	{
-					player setVariable["cmoney"] - 25];
-
-					if((player getVariable "cmoney") < 0) then
-					{
-						player setVariable["cmoney",0,false];
-					};
-				};
-
-				if((player getVariable "medkits") > 0) then 
-            	{
-					player setVariable["medkits"] - 1];
-
-					if((player getVariable "medkits") < 0) then
-					{
-						player setVariable["medkits",0,false];
-					};
-		};
-
         };
 
         if(((getPlayerUID player) in members3)) then
         {
             player groupChat format[":: TESTING REWARDS SYS :: IN ARRAY MEMBERS3 :: REMOVED MEMBERS3 REWARDS"];
-            	
-            	if((player getVariable "cmoney") > 0) then 
-            	{
-					player setVariable["cmoney"] - 50];
-
-					if((player getVariable "cmoney") < 0) then
-					{
-						player setVariable["cmoney",0,false];
-					};
-				};
-
-				if((player getVariable "medkits") > 0) then 
-            	{
-					player setVariable["medkits"] - 1];
-
-					if((player getVariable "medkits") < 0) then
-					{
-						player setVariable["medkits",0,false];
-					};
-				};
-
+            player removeWeapon "Sa61_EP1";	
         };
 
         if(((getPlayerUID player) in donators)) then
@@ -140,36 +101,6 @@ if(((getPlayerUID player) in members)) then
                   	{
                     player groupChat format[":: TESTING REWARDS SYS :: IN ARRAY DONATORS1 :: REMOVED DONATORS1 REWARDS"];
                     player removeWeapon "UZI_SD_EP1";
-
-                    	if((player getVariable "cmoney") > 0) then 
-            			{
-							player setVariable["cmoney"] - 200];
-
-							if((player getVariable "cmoney") < 0) then
-							{
-								player setVariable["cmoney",0,false];
-							};
-						};
-
-						if((player getVariable "medkits") > 0) then 
-            			{
-							player setVariable["medkits"] - 2];
-
-							if((player getVariable "medkits") < 0) then
-							{
-								player setVariable["medkits",0,false];
-							};
-						};
-
-						if((player getVariable "repairkits") > 0) then 
-            			{
-							player setVariable["repairkits"] - 1];
-
-							if((player getVariable "repairkits") < 0) then
-							{
-								player setVariable["repairkits",0,false];
-							};
-						};
 
                   	};
         };
