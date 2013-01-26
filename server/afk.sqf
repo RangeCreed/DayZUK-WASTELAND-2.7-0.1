@@ -8,3 +8,6 @@ if(!X_Server) exitWith {};
 
 afk = [""]; 
 publicVariable "afk";
+
+afkNames = [""];
+publicVariable "afkNames";
