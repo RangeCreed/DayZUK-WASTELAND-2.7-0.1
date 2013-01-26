@@ -32,8 +32,8 @@ publicVariable "afkSysSetCaptive";
 afkSysRandomArea = "true";
 publicVariable "afkSysUseRandomArea";
 
-afkSysAllowDamage = "false";
-publicVariable "afkSysAllowDamage";
+afkSysStopDamage = "true";
+publicVariable "afkSysStopDamage";
 
 afkSysBadList = [
 						"" //a player UID for which AFK sysem will be revoked
