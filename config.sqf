@@ -24,6 +24,7 @@ weaponsArray = [
     ["M4A1 CCO","M4A1_Aim",100,55],
     ["M1014","M1014",50,25],
     ["Saiga 12K","Saiga12K",100,55],
+    ["CZ550","Huntingrifle",125,60],
     ["M249","M249_EP1",250,120],
     ["Mk_48 Mod","Mk_48",250,140],
     ["M240","M240",250,120],
@@ -33,6 +34,7 @@ weaponsArray = [
     ["Stinger","Stinger",1000,550],
     ["Javelin","Javelin",1500,750],
     ["Mk12 SPR","M4SPR",200,120],
+    ["M40A3","M40A3",300,150],
     ["Mk17 Sniper","SCAR_H_LNG_Sniper",500,233],
     ["Mk17 Sniper SD","SCAR_H_LNG_Sniper_SD",750,455],
     ["M110 NV","M110_NVG_EP1",1000,666],
@@ -47,6 +49,8 @@ ammoArray = [
 	["30Rnd AK","30Rnd_545x39_AK",10],
 	["AKM Mag","30Rnd_762x39_AK47",10],
 	["30Rnd. STANAG","30Rnd_556x45_Stanag",10],
+	["5Rnd. M24/M40A3","5Rnd_762x51_M24",25],
+	["5Rnd. CZ550","5x_22_LR_17_HMR",10],
     ["30Rnd. STANAG SD","30Rnd_556x45_StanagSD",30],
     ["Mk17 Mag.","20Rnd_762x51_B_SCAR",25],
 	["Mk17 SD Mag.","20Rnd_762x51_SB_SCAR",50],
@@ -65,9 +69,11 @@ ammoArray = [
 //Gun Store Equipment List
 //Text name, classname, buy cost
 accessoriesArray = [
-	["Range Finder","Binocular_Vector",500],
+	["Laser Designator","Laserdesignator",800],
+	["Range Finder","Binocular_Vector",400],
 	["NV Goggles","NVGoggles",100],
-    ["GPS","ItemGPS", 90]
+    	["GPS","ItemGPS", 90],
+	["Battery","Laserbatteries", 10]
 ];
 
 //General Store Item List
