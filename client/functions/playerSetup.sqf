@@ -38,7 +38,7 @@ hungerLevel = 100;
 
 //REWARD SYS START
 
-if(((getPlayerUID player) in members)) exitWith
+if(((getPlayerUID player) in members)) then
 {
     _welcomeColor = "#17FF41";
     _separatorColor = "#FFFFFF";
