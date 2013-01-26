@@ -1,4 +1,3 @@
-
 //  @file Version: 1.0
 //  @file Name: playerSetup.sqf
 //  @file Author: [404] Deadbeat
@@ -39,9 +38,23 @@ hungerLevel = 100;
 
 //REWARD SYS START
 
-if(((getPlayerUID player) in members)) then
+if(((getPlayerUID player) in members)) exitWith
 {
-    hint format [":: TESTING REWARDS SYS :: IN ARRAY MEMBERS"];
+    _welcomeColor = "#17FF41";
+    _separatorColor = "#FFFFFF";
+    _titleColor = "#52bf90";
+    _mainColor = "#FFFFFF";
+    _importantText = "FF1717";
+
+    _news1Title = "PERKS";
+    _news1Text = "For information on how your member status elevates please visit DAYZUK.COM";
+    _news2Title = "DONATE";
+    _news2Text = "Donate at DAYZUK.COM for donator starting gear and unique features";
+    _infoText = "many things mentioned above are not final, member and donator gear/features may change, we are still testing this system";
+    
+    HINT parseText format ["<t align='center' color='%1' shadow='2' size='1.45'>Welcome back %10</t><br/><t align='center' color='%2'>-------------------------------------</t><br/><t align='center' color='%3' size='1.1'>Setting up your custome spawn gear...</t><br/><br/><t align='center' color='%4'>%6</t><br/><br/><t align='center' color='%3'>%7</t><br/><t align='center' color='%4'>%8</t><br/><br/><t align='center' color='%4' size='0.8'>%9</t>", _welcomeColor, _separatorColor, _titleColor, _mainColor, _news1Title, _news1Text, _news2Title, _news2Text, _infoText, name player];
+    
+    
     _player setVariable["fuel",1,false];
     _player addWeapon "ItemGPS";
     _player addWeapon "ItemRadio";
@@ -72,11 +85,9 @@ if(((getPlayerUID player) in members)) then
         {
             _player groupChat format[":: TESTING REWARD SYS :: IN ARRAY MEMBERS3"];
             removeAllWeapons _player;
-            _player addMagazine "6Rnd_45ACP";
-            _player addMagazine "6Rnd_45ACP";
-            _player addMagazine "6Rnd_45ACP";
-            _player addWeapon "revolver_gold_EP1";
-            _player selectWeapon "revolver_gold_EP1";
+            _player addMagazine "20Rnd_B_765x17_Ball";
+            _player addWeapon "Sa61_EP1";
+            _player selectWeapon "Sa61_EP1";
             _player setVariable["cmoney",150,false];
             _player setVariable["medkits",1,false];
         };
@@ -91,6 +102,7 @@ if(((getPlayerUID player) in members)) then
                     _player groupChat format[":: TESTING REWARDS SYS :: IN ARRAY DONATORS1"];
                     removeAllWeapons _player;
                     _player addMagazine "30Rnd_9x19_UZI_SD";
+                    _player addMagazine "30Rnd_9x19_UZI_SD";
                     _player addWeapon "UZI_SD_EP1";
                     _player selectWeapon "UZI_SD_EP1";
                     _player setVariable["cmoney",300,false];
@@ -98,6 +110,17 @@ if(((getPlayerUID player) in members)) then
                     _player setVariable["repairkits",1,false];
                     };
         };
+
+    _player addrating 1000000;
+    _player switchMove "amovpknlmstpsraswpstdnon_gear";
+
+    [] execVM "client\functions\playerActions.sqf";
+
+    _player groupChat format["Player Initialization Complete"];
+    playerSetupComplete = true;
+
+    sleep 5;
+    hint "";
 
 }
 else
