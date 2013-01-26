@@ -6,8 +6,8 @@ _importantText = "FF1717";
 
 _news1Title = "PERKS";
 _news1Text = "customised loadouts for members of each group";
-_news2Title = "LIVE CHAT";
-_news2Text = "see a live global chat feed in a browser!";
+_news2Title = "GUN STORES";
+_news2Text = "CZ550, M40A3 added to gun stores";
 _infoText = "see the extended news stories @ WASTELANDUK.INFO";
 
 _delay = "15";
