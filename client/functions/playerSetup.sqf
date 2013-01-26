@@ -46,7 +46,7 @@ if(((getPlayerUID player) in members)) then
     _mainColor = "#FFFFFF";
     _importantText = "FF1717";
 
-    _news1Title = "PERKS";
+    _news1Title = "REWARDS";
     _news1Text = "For information on how your member status elevates please visit DAYZUK.COM";
     _news2Title = "DONATE";
     _news2Text = "Donate at DAYZUK.COM for donator starting gear and unique features";
