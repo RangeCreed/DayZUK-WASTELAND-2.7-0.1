@@ -72,8 +72,7 @@ accessoriesArray = [
 	["Laser Designator","Laserdesignator",800],
 	["Range Finder","Binocular_Vector",400],
 	["NV Goggles","NVGoggles",100],
-    	["GPS","ItemGPS", 90],
-	["Battery","Laserbatteries", 10]
+    	["GPS","ItemGPS", 90]
 ];
 
 //General Store Item List
