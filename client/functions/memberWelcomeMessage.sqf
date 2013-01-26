@@ -4,7 +4,7 @@ _titleColor = "#52bf90";
 _mainColor = "#FFFFFF";
 _importantText = "FF1717";
 
-_news1Title = "PERKS";
+_news1Title = "REWARDS";
 _news1Text = "customised loadouts for members of each group";
 _news2Title = "GUN STORES";
 _news2Text = "CZ550, M40A3 added to gun stores";
@@ -28,13 +28,13 @@ if(((getPlayerUID player) in members)) then
 		{
 			[str ("Welcome back!"), str("TIER 2")] spawn BIS_fnc_infoText;
 		};
-		if(((getPlayerUID player) in members1)) then
+		if(((getPlayerUID player) in members3)) then
 		{
-			[str ("Welcome back!"), str("TIER 1")] spawn BIS_fnc_infoText;
+			[str ("Welcome back!"), str("TIER 3")] spawn BIS_fnc_infoText;
 		}
-		else
+		if(((getPlayerUID player) in donators)) then
 		{
-			[str ("Welcome back!"), str("TIER error:noTier"), str("^ tell Moses")] spawn BIS_fnc_infoText;
+			[str ("Welcome back!"), str("DONATOR"), str("Thanks for the support")] spawn BIS_fnc_infoText;
 		};
 
 }
