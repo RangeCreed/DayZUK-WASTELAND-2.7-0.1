@@ -96,9 +96,7 @@ pickupList = ["Satelit",
 				"Fuel_can"];
 
 //Object List - Random Spawns.
-objectList = [	"Fort_Nest_M240",
-		"SearchLight",
-		"Land_Barrel_water",
+objectList = [	"Land_Barrel_water",
 				"Land_prebehlavka",
 				"Land_leseni2x",
                 "Fort_Crate_wood",
@@ -145,7 +143,9 @@ objectList = [	"Fort_Nest_M240",
 				"Land_ConcreteBlock"];
                                          
 //Object List - Random Spawns.
-staticWeaponsList = ["M2StaticMG_US_EP1",
+staticWeaponsList = [	"Fort_Nest_M240",
+			"SearchLight",
+			"M2StaticMG_US_EP1",
 				"DSHKM_TK_INS_EP1"];
 
 //Object List - Random Helis.
