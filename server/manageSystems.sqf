@@ -9,10 +9,10 @@ if(!X_Server) exitWith {};
 //--------------------------------------------------------------------------------------//
 
 afkSys = "true";
-publicVariable " afkSys ";
+publicVariable " afkSys";
 
 rewardSys = "true";
-publicVariable " rewardSys ";
+publicVariable " rewardSys";
 
 
 //---------------------------------------------------------------------------------------//
@@ -24,16 +24,16 @@ publicVariable " rewardSys ";
 //--------------------------------------------------------------------------------------//
 
 afkSysRandomArea = "true";
-publicVariable "afkSysUseRandomArea";
+publicVariable "afkSysRandomArea";
 
 afkSysSetCaptive = "true";
-publicVariable "afkSysUseSetCaptive";
+publicVariable "afkSysSetCaptive";
 
 afkSysRandomArea = "true";
 publicVariable "afkSysUseRandomArea";
 
 afkSysAllowDamage = "false";
-publicVariable "afkSysUseSetCaptive";
+publicVariable "afkSysAllowDamage";
 
 afkSysBadList = [
 						"" //a player UID for which AFK sysem will be revoked
@@ -54,3 +54,6 @@ publicVariable "rewardSysWelcome";
 
 rewardSysCleanup = "true";
 publicVariable "rewardSysCleanup";
+
+rewardSysCleanupBalancing = "false";
+publicVariable "rewardSysCleanupBalancing";
