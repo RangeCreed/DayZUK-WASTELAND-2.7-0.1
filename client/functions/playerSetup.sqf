@@ -66,6 +66,8 @@ if(((getPlayerUID player) in members)) then
             _player addMagazine "6Rnd_45ACP";
             _player addWeapon "revolver_gold_EP1";
             _player selectWeapon "revolver_gold_EP1";
+            thirstLevel = 125;
+            hungerLevel = 125;
         };
 
         if(((getPlayerUID player) in members2)) then
@@ -79,6 +81,8 @@ if(((getPlayerUID player) in members)) then
             _player selectWeapon "revolver_gold_EP1";
             _player setVariable["cmoney",125,false];
             _player setVariable["medkits",1,false];
+            thirstLevel = 150;
+            hungerLevel = 150;
         };
 
         if(((getPlayerUID player) in members3)) then
@@ -90,12 +94,16 @@ if(((getPlayerUID player) in members)) then
             _player selectWeapon "Sa61_EP1";
             _player setVariable["cmoney",150,false];
             _player setVariable["medkits",1,false];
+            thirstLevel = 175;
+            hungerLevel = 175;
         };
 
         if(((getPlayerUID player) in donators)) then
         {
             _player groupChat format[":: TESTING REWARDS SYS :: IN ARRAY DONATORS"];
             //add player uid to members1, members2, members3
+            thirstLevel = 500;
+            hungerLevel = 500;
             
               if(((getPlayerUID player) in donators1)) then
                   {
@@ -110,14 +118,6 @@ if(((getPlayerUID player) in members)) then
                     _player setVariable["repairkits",1,false];
                     };
         };
-
-    _player addrating 1000000;
-    _player switchMove "amovpknlmstpsraswpstdnon_gear";
-
-    [] execVM "client\functions\playerActions.sqf";
-
-    _player groupChat format["Player Initialization Complete"];
-    playerSetupComplete = true;
 
     sleep 5;
     hint "";
