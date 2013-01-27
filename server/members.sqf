@@ -29,7 +29,7 @@ memberName = [
 			 ];
 
 members = [
-		   "1699834", //MICROB
+		   "1696834", //MRMICROB
 		   "102091462", //Wolf
 		   "10292038", //IvanGolitsyn
 		   "82668742", //Rezza
@@ -49,7 +49,7 @@ publicVariable "members";
 
 
 members1 = [
-		   "1699834", //MICROB
+		   "1696834", //MRMICROB
 		   "102091462", //Wolf
 		   "10292038", //IvanGolitsyn
 		   "82668742", //Rezza
@@ -68,6 +68,7 @@ members1 = [
 publicVariable "members1";
 
 members2 = [
+		   "86458694", //ChrisGaming
 		   "66959558",
 		   "104646854",
 		   "73402694",
