@@ -42,7 +42,8 @@ members = [
 		   "9709558",
 		   "74404550", //Quadrafox
 		   "53428678", //Drew
-		   "8772486" //Dan
+		   "8772486", //Dan
+		   "36553670" //Moses
 		   ]; 
 publicVariable "members";
 
@@ -61,7 +62,8 @@ members1 = [
 		   "9709558",
 		   "74404550", //Quadrafox
 		   "53428678", //Drew
-		   "8772486" //Dan
+		   "8772486", //Dan
+		   "36553670" //Moses
 		   ]; 
 publicVariable "members1";
 
@@ -72,7 +74,8 @@ members2 = [
 		   "9709558",
 		   "74404550", //Quadrafox
 		   "53428678", //Drew
-		   "8772486" //Dan
+		   "8772486", //Dan
+		   "36553670" //Moses
 		   ]; 
 publicVariable "members2";
 
@@ -83,6 +86,7 @@ members = [
 		   "9709558",
 		   "74404550", //Quadrafox
 		   "53428678", //Drew
-		   "8772486" //Dan
+		   "8772486", //Dan
+		   "36553670" //Moses
 		   ]; 
 publicVariable "members3";
