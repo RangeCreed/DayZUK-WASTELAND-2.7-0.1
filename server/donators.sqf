@@ -18,8 +18,8 @@ if(!X_Server) exitWith {};
 donators = [
 		   "74404550", //Quadrafox
 		   "53428678", //Drew
-		   "36553670", //Moses
-		   "8772486" //Dan
+		   "8772486", //Dan
+		   "36553670" //Moses
 		   ]; 
 publicVariable "donators";
 
@@ -27,6 +27,6 @@ dontors1 = [
 			"74404550", //Quadrafox
 		   "53428678", //Drew
 		   "36553670", //Moses
-		   "8772486" //Dan
+		   "8772486", //Dan
 			];
 publicVariable "donators1";
