@@ -33,7 +33,7 @@ members = [
 		   "102091462", //Wolf
 		   "10292038", //IvanGolitsyn
 		   "82668742", //Rezza
-		   "101277638", //Wpmbat
+		   "101277638", //Wombat
 		   "98690630", //Stewart
 		   "86458694", //ChrisGaming
 		   "66959558",
@@ -53,7 +53,7 @@ members1 = [
 		   "102091462", //Wolf
 		   "10292038", //IvanGolitsyn
 		   "82668742", //Rezza
-		   "101277638", //Wpmbat
+		   "101277638", //Wombat
 		   "98690630", //Stewart
 		   "86458694", //ChrisGaming
 		   "66959558",
