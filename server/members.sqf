@@ -35,6 +35,7 @@ if(!X_Server) exitWith {};
 //			 ];
 
 members = [
+		   "20529926", //Kanji
 		   "1696834", //MRMICROB
 		   "102091462", //Wolf
 		   "10292038", //IvanGolitsyn
@@ -55,6 +56,7 @@ publicVariable "members";
 
 
 members1 = [
+		   "20529926", //Kanji
 		   "1696834", //MRMICROB
 		   "102091462", //Wolf
 		   "10292038", //IvanGolitsyn
