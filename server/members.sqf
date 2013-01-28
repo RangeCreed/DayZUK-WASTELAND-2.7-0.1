@@ -1,3 +1,8 @@
+//	@file Version: 1.0
+//	@file Name: members.sqf
+//	@file Author: [DayZUK] Moses
+//	@file Created: 25/01/13 15:13
+
 if(!X_Server) exitWith {};
 
 //---------------------------------------------------------------------------------------//
@@ -16,17 +21,18 @@ if(!X_Server) exitWith {};
 //
 //--------------------------------------------------------------------------------------//
 
-memberName = [
-			  "Moses",
-			  "DN",
-			  "Drew",
-			  "Dynamite",
-			  "Quadrafox",
-			  "Panda",
-			  "Waffles",
-			  "Creed",
-			  "Kira"
-			 ];
+// UNUSED
+//memberName = [
+//			  "Moses",
+//			  "DN",
+//			  "Drew",
+//			  "Dynamite",
+//			  "Quadrafox",
+//			  "Panda",
+//			  "Waffles",
+//			  "Creed",
+//			  "Kira"
+//			 ];
 
 members = [
 		   "1696834", //MRMICROB
