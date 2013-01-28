@@ -82,7 +82,7 @@ ammoArray = [
 //Gun Store Equipment List
 //Text name, classname, buy cost
 accessoriesArray = [
-	["Laser Designator","Laserdesignator",800],
+	["Laser Designator","Laserdesignator",700],
 	["Range Finder","Binocular_Vector",400],
 	["NV Goggles","NVGoggles",100],
     	["GPS","ItemGPS", 90]
