@@ -3,18 +3,31 @@
 //	@file Author: [404] Deadbeat, [404] Costlyy
 //	@file Created: 20/11/2012 05:13
 //	@file Description: Main config.  
-// --------------------------------------------------------------------------------------------------- \\
-// ----------  !DO NOT CHANGE ANYTHING BELOW THIS POINT UNLESS YOU KNOW WHAT YOU ARE DOING!	---------- \\
-// ----------																				---------- \\
-// ----------			404Games are not responsible for anything that may happen 			---------- \\
-// ----------			 as a result of unauthorised modifications to this file.			---------- \\
-// --------------------------------------------------------------------------------------------------- \\
 
 //Client Vars
 playerSetupComplete = false;
                                                                                                 
+// The syntax for the weapons array is as follows:
+//
+//["STORENAME","CLASS",BUY,SELL]
+//
+//STORENAME = The text that will appear in the gun store list
+//CLASS = The weapons actual class name
+//BUY = The buy price for the item.
+//SELL = The sell price for the item.
+//
+//All items should be separated by a comma, excluding the last item in the array.
+//
+//So, for example:
+//["CZ550","Huntingrifle",125,60],
+//
+//The syntax for the ammo array is the same as above, regardless, here is another example:
+//["5Rnd. CZ550","5x_22_LR_17_HMR",10],
+//
+//Equipment on the other hand does vary slightly as no sell price is needed, here is an example:
+//["Laser Designator","Laserdesignator",800],
+
 //Gunstore Weapon List - Gun Store Base List
-// Text name, classname, buy cost, sell amount
 weaponsArray = [
 	["AK-74","AK_74",50,25],
 	["AK-107 Kobra","AK_107_kobra",75,35],
