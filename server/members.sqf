@@ -41,7 +41,7 @@ members = [
 		   "82668742", //Rezza
 		   "101277638", //Wombat
 		   "98690630", //Stewart
-		   "86458694", //ChrisGaming
+		   "93437702", //ChrisGaming
 		   "66959558",
 		   "104646854",
 		   "73402694",
@@ -61,7 +61,7 @@ members1 = [
 		   "82668742", //Rezza
 		   "101277638", //Wombat
 		   "98690630", //Stewart
-		   "86458694", //ChrisGaming
+		   "93437702", //ChrisGaming
 		   "66959558",
 		   "104646854",
 		   "73402694",
@@ -74,7 +74,7 @@ members1 = [
 publicVariable "members1";
 
 members2 = [
-		   "86458694", //ChrisGaming
+		   "93437702", //ChrisGaming
 		   "66959558",
 		   "104646854",
 		   "73402694",
