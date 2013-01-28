@@ -55,7 +55,8 @@ if(((getPlayerUID player) in members)) then
     HINT parseText format ["<t align='center' color='%1' shadow='2' size='1.45'>Welcome back %10</t><br/><t align='center' color='%2'>-------------------------------------</t><br/><t align='center' color='%3' size='1.1'>Setting up your custome spawn gear...</t><br/><br/><t align='center' color='%4'>%6</t><br/><br/><t align='center' color='%3'>%7</t><br/><t align='center' color='%4'>%8</t><br/><br/><t align='center' color='%4' size='0.8'>%9</t>", _welcomeColor, _separatorColor, _titleColor, _mainColor, _news1Title, _news1Text, _news2Title, _news2Text, _infoText, name player];
     
     
-    _player setVariable["fuel",1,false];
+    _player setVariable["fuelEmpty",0,false];
+    _player setVariable["fuelFull",1,false];
     _player addWeapon "ItemGPS";
     _player addWeapon "ItemRadio";
     
@@ -66,8 +67,8 @@ if(((getPlayerUID player) in members)) then
             _player addMagazine "6Rnd_45ACP";
             _player addWeapon "revolver_gold_EP1";
             _player selectWeapon "revolver_gold_EP1";
-            thirstLevel = 125;
-            hungerLevel = 125;
+            thirstLevel = 150;
+            hungerLevel = 150;
         };
 
         if(((getPlayerUID player) in members2)) then
@@ -81,8 +82,8 @@ if(((getPlayerUID player) in members)) then
             _player selectWeapon "revolver_gold_EP1";
             _player setVariable["cmoney",125,false];
             _player setVariable["medkits",1,false];
-            thirstLevel = 150;
-            hungerLevel = 150;
+            thirstLevel = 200;
+            hungerLevel = 200;
         };
 
         if(((getPlayerUID player) in members3)) then
@@ -94,16 +95,19 @@ if(((getPlayerUID player) in members)) then
             _player selectWeapon "Sa61_EP1";
             _player setVariable["cmoney",150,false];
             _player setVariable["medkits",1,false];
-            thirstLevel = 175;
-            hungerLevel = 175;
+            thirstLevel = 300;
+            hungerLevel = 300;
         };
 
         if(((getPlayerUID player) in donators)) then
         {
             _player groupChat format[":: TESTING REWARDS SYS :: IN ARRAY DONATORS"];
             //add player uid to members1, members2, members3
-            thirstLevel = 500;
-            hungerLevel = 500;
+            _player setVariable["canfood",0,false];
+            _player setVariable["water",0,false];
+            _player setVariable["fuelEmpty", 0, false];
+            thirstLevel = 999;
+            hungerLevel = 999;
             
               if(((getPlayerUID player) in donators1)) then
                   {
@@ -115,7 +119,8 @@ if(((getPlayerUID player) in members)) then
                     _player selectWeapon "UZI_SD_EP1";
                     _player setVariable["cmoney",300,false];
                     _player setVariable["medkits",2,false];
-                    _player setVariable["repairkits",1,false];
+                    _player setVariable["repairkits",2,false];
+                    _player setVariable["fuelFull", 1, false];
                     };
         };
 
