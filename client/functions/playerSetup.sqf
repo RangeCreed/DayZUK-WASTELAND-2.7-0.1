@@ -123,10 +123,6 @@ if(((getPlayerUID player) in members)) then
                     _player setVariable["fuelFull", 1, false];
                     };
         };
-
-    sleep 5;
-    hint "";
-
 }
 else
 {
