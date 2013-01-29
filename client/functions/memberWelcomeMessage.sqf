@@ -13,7 +13,7 @@ _infoText = "see the extended news stories @ WASTELANDUK.INFO";
 _delay = "15";
 
 
-sleep 15;
+sleep 5;
 
 if(((getPlayerUID player) in members)) then
 {
