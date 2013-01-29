@@ -41,6 +41,7 @@ weaponsArray = [
     	["M249","M249_EP1",250,120],
     	["Mk_48 Mod","Mk_48",250,140],
     	["M240","M240",250,120],
+	["MG36 Camo","MG36_camo",275,135],
     	["Pecheneg","Pecheneg",250,100],
     	["RPG-7","RPG7V",300,130],
     	["SMAW","SMAW",300,175],
@@ -70,6 +71,7 @@ ammoArray = [
 	["10Rnd. M107","10Rnd_127x99_m107",50],
 	["8Rnd. M1014 Slug","8Rnd_B_Beneli_74Slug",10],
 	["8Rnd. Saiga 12K Slug","8Rnd_B_Saiga12_74Slug",10],
+	["100Rnd. MG36 Mag","100Rnd_556x45_BetaCMag",50],
 	["200Rnd. M249 Belt","200Rnd_556x45_M249",50],
 	["100Rnd. M240","100Rnd_762x51_M240",25],
 	["PKM Mag.","100Rnd_762x54_PK",25],
@@ -96,9 +98,9 @@ generalStore = [
 	["Repair Kit","repairkits",localize "STR_WL_ShopDescriptions_RepairKit","client\icons\briefcase.paa",1000,500],
 	["Medical Kit","medkits",localize "STR_WL_ShopDescriptions_MedKit","client\icons\medkit.paa",400,200],
 	["Jerry Can (Full)","fuelFull",localize "STR_WL_ShopDescriptions_fuelFull","client\icons\jerrycan.paa",150,75],
-    ["Jerry Can (Empty)","fuelEmpty",localize "STR_WL_ShopDescriptions_fuelEmpty","client\icons\jerrycan.paa",50,25],
+    	["Jerry Can (Empty)","fuelEmpty",localize "STR_WL_ShopDescriptions_fuelEmpty","client\icons\jerrycan.paa",50,25],
 	["Spawn Beacon","spawnBeacon",localize "STR_WL_ShopDescriptions_spawnBeacon","",3000,1500],
-    ["Camo Net", "camonet", localize "STR_WL_ShopDescriptions_Camo", "",300,150]  
+    	["Camo Net", "camonet", localize "STR_WL_ShopDescriptions_Camo", "",300,150]  
 ];
 
 // Chernarus town and city array
