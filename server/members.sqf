@@ -62,38 +62,17 @@ members1 = [
 		   "101277638", //Wombat
 		   "98690630", //Stewart
 		   "86458694", //ChrisGaming
-		   "66959558",
-		   "104646854",
-		   "73402694",
-		   "9709558", //Waffles
-		   "74404550", //Quadrafox
-		   "53428678", //Drew
-		   "8772486", //Dan
-		   "36553670" //Moses
 		   ]; 
 publicVariable "members1";
 
 members2 = [
-		   "86458694", //ChrisGaming
 		   "66959558",
 		   "104646854",
 		   "73402694",
 		   "9709558", //Waffles
-		   "74404550", //Quadrafox
-		   "53428678", //Drew
-		   "8772486", //Dan
-		   "36553670" //Moses
 		   ]; 
 publicVariable "members2";
 
 members3 = [
-		   "66959558",
-		   "104646854",
-		   "73402694",
-		   "9709558", //Waffles
-		   "74404550", //Quadrafox
-		   "53428678", //Drew
-		   "8772486", //Dan
-		   "36553670" //Moses
 		   ]; 
 publicVariable "members3";
