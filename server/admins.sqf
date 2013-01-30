@@ -7,8 +7,9 @@ if(!X_Server) exitWith {};
 //73402694 -
 //9709558 -
 //74404550 - Quadrafox
+//53428678 - Drew
 
-moderators = ["66959558","104646854","73402694","9709558","74404550"];
+moderators = ["66959558","104646854","73402694","9709558","74404550","53428678"];
 publicVariable "moderators"; 
 
 //ADMINISTRATOR IDS
