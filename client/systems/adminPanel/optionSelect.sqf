@@ -33,11 +33,6 @@ if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministr
 			{
 			    case 0: //Player Menu
 				{
-	                closeDialog 0;
-					execVM "client\systems\adminPanel\playerMenu.sqf";
-				};
-				case 1: //Basic Vehicle Menu
-				{
 					closeDialog 0;
 					execVM "client\systems\adminPanel\vehicleManagement.sqf";
 				};
@@ -57,10 +52,6 @@ if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministr
 	                closeDialog 0;
 					execVM "client\systems\adminPanel\vehicleManagement.sqf";
 				};
-			    case 2: //Tags
-			    {
-					execVM "client\systems\adminPanel\playerTags.sqf";
-			    };
 			};
 		};
 	    case 2: //Server Administrator panel
