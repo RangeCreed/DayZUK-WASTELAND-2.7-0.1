@@ -36,7 +36,7 @@ if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministr
 	
 	_vehicleCountText ctrlSetText format["Vehicles on Server: %1", _vehicleCount];
 	
-	if((_uid in moderators)) then
+	if((_uid in moderators) OR (_uid in administrators)) then
 	{
 		_vehicleCivBtn ctrlShow false;
 	    _vehicleHeliBtn ctrlShow false;
