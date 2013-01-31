@@ -8,10 +8,6 @@ private ["_uid","_handle"];
 
 _uid = getPlayerUID player;
 if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministrators)) then {
-    if ((_uid in moderators)) then {
-		execVM "client\systems\adminPanel\loadModeratorMenu.sqf";
-        hint "Welcome Moderator! Use your powers responsibly or risk losing your privilages!";		
-	};
     if ((_uid in administrators)) then {
 		[] execVM "client\systems\adminPanel\loadAdministratorMenu.sqf";
         hint "Welcome Admin! Use your powers responsibly or risk losing your privilages!";		
