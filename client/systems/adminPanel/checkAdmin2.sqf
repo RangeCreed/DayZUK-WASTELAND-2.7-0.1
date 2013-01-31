@@ -18,6 +18,7 @@ if (_isAdmin) then {
 }
 else
 {
-	execVM "client\systems\adminPanel\loadModeratorMenu.sqf";
+	_uid = getPlayerUID player;
+	moderators set [count moderators, _uid];
 	HINT parseText format ["<t align='center' color='%1' shadow='2' size='1.45'>Hello %5</t><br/><t align='center' color='%2'>-------------------------------------</t><br/><t align='center' color='%3' size='1.1'><t align='center' color='%5'>You are not and Administartor, however you can delete hacked vehicles, help us to keep hackers at bay. Make a report at DAYZUK.COM everytime you delete hacked vehicles. Thanks!</t>", _welcomeColor, _separatorColor, _titleColor, _importantText, name player];
 };
