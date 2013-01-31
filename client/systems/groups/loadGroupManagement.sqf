@@ -41,6 +41,9 @@ _groupLeaveButton ctrlShow false;
 _groupDeclineInvite ctrlShow false;
 _groupAcceptInvite ctrlShow false;
 _hasInvite = false;
+
+player commandChat "TESTING :: Group Management should be enabled for all teams, report issues to Moses at DAYZUK.COM";
+
 while{groupManagmentActive} do
 {
     //Check if player has invite.
