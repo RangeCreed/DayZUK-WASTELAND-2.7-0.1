@@ -135,7 +135,7 @@ class playerSettings {
 			idc = hackedVehiclesButton;
 			text = "Remove Hacked Vehicles";
 			onButtonClick = "execVM 'client\systems\playerMenu\deleteAllHackedVehicles.sqf'";
-			x = 0.400; y = 0.68;
+			x = 0.500; y = 0.68;
 			w = 0.225; h = 0.033 * safezoneH;
 			color[] = {0.95,0.1,0.1,1};
 		};
