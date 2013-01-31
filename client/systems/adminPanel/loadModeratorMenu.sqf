@@ -15,8 +15,7 @@ if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministr
 	_displayMod = uiNamespace getVariable "ModMenu";
 	_modSelect = _displayMod displayCtrl modMenu_option;
 	
-	_panelOptions = ["Player Menu",
-					"Vehicle Management"
+	_panelOptions = ["Vehicle Management"
 	];
 	
 	{
