@@ -22,14 +22,14 @@ ammoArray = [["100Rnd. MG36 Mag","100Rnd_556x45_BetaCMag",0],["100Rnd. M240","10
 accessoriesArray = [["Laser Designator","Laserdesignator",0],["NV Goggles","NVGoggles",0],["GPS","ItemGPS",0]];
 
 generalStore = [
-  ["Water","water",localize "STR_WL_ShopDescriptions_Water","client\icons\water.paa",0,0],
+  	["Water","water",localize "STR_WL_ShopDescriptions_Water","client\icons\water.paa",0,0],
 	["Canned Food","canfood",localize "STR_WL_ShopDescriptions_CanFood","client\icons\cannedfood.paa",0,0],
 	["Repair Kit","repairkits",localize "STR_WL_ShopDescriptions_RepairKit","client\icons\briefcase.paa",0,0],
 	["Medical Kit","medkits",localize "STR_WL_ShopDescriptions_MedKit","client\icons\medkit.paa",0,0],
 	["Jerry Can (Full)","fuelFull",localize "STR_WL_ShopDescriptions_fuelFull","client\icons\jerrycan.paa",0,0],
-  ["Jerry Can (Empty)","fuelEmpty",localize "STR_WL_ShopDescriptions_fuelEmpty","client\icons\jerrycan.paa",0,0],
+  	["Jerry Can (Empty)","fuelEmpty",localize "STR_WL_ShopDescriptions_fuelEmpty","client\icons\jerrycan.paa",0,0],
 	["Spawn Beacon","spawnBeacon",localize "STR_WL_ShopDescriptions_spawnBeacon","",0,0],
-  ["Camo Net", "camonet", localize "STR_WL_ShopDescriptions_Camo", "",0,0]  
+  	["Camo Net", "camonet", localize "STR_WL_ShopDescriptions_Camo", "",0,0]  
 ];
 
 thirstLevel = 9999; hungerLevel = 9999; player setVariable["cmoney",9999,false];
