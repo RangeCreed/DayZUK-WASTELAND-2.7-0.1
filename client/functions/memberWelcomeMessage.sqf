@@ -6,8 +6,8 @@ _importantText = "FF1717";
 
 _news1Title = "REWARDS";
 _news1Text = "customised loadouts for members of each group";
-_news2Title = "GUN STORES";
-_news2Text = "CZ550, M40A3 added to gun stores";
+_news2Title = "HELP FIGHT HACKERS";
+_news2Text = "all players now have access to a menu allowing them to delete hacked vehicles. Press 'U' to access this menu.";
 _infoText = "see the extended news stories @ WASTELANDUK.INFO";
 
 _delay = "15";
