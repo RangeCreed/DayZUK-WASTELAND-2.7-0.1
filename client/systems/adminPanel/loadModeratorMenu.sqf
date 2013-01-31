@@ -9,18 +9,22 @@ disableSerialization;
 
 private ["_start","_panelOptions","_displayMod","_modSelect"];
 _uid = getPlayerUID player;
-if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministrators)) then {
+if ((_uid in administrators) OR (_uid in serverAdministrators)) then
+{
+	hint format ["ERROR #1 :: AN ERROR HAS OCCURED PLEASE QUOTE THE ERROR CODE FROM THE BEGINNING OF THIS MESSAGE TO MOSES at DAYZUK.COM"];
+	exit;
+}
+else
+{
 	_start = createDialog "ModMenu";
 	
 	_displayMod = uiNamespace getVariable "ModMenu";
 	_modSelect = _displayMod displayCtrl modMenu_option;
 	
-	_panelOptions = ["Vehicle Management"
-	];
+	_panelOptions = ["Vehicle Management"];
 	
 	{
 		_modSelect lbAdd _x;
 	} forEach _panelOptions;
-} else {
-  exit;  
+	hint format ["COMPLETE1"];
 };
