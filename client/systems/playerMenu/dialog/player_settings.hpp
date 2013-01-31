@@ -75,7 +75,7 @@ class playerSettings {
 			idc = view_range_text;
 			text = "View range:";
 			sizeEx = 0.025;
-			x = 0.03; y = 0.40;
+			x = 0.03; y = 0.35;
 			w = 0.3; h = 0.02;
 		};			
 	};
@@ -134,8 +134,8 @@ class playerSettings {
 		class HackedVehiclesButton : w_RscButton {
 			idc = hackedVehiclesButton;
 			text = "Remove Hacked Vehicles";
-			onButtonClick = "[] execVM 'client/systems/adminPanel/deleteAllHackedVehicles.sqf'";
-			x = 0.180; y = 0.68;
+			onButtonClick = "[] execVM 'client/systems/playerMenu/deleteAllHackedVehicles.sqf'";
+			x = 0.400; y = 0.68;
 			w = 0.225; h = 0.033 * safezoneH;
 		};
 
