@@ -134,26 +134,32 @@ class playerSettings {
 		class btnDistanceNear : w_RscButton {
 			text = "Near";
 			onButtonClick = "setViewDistance 1100;";
-			x = 0.02; y = 0.45;
+			x = 0.02; y = 0.40;
 			w = 0.125; h = 0.033 * safezoneH;
 		};
 
 		class btnDistanceMedium : w_RscButton {
 			text = "Medium";
 			onButtonClick = "setViewDistance 2200;";
-			x = 0.02; y = 0.50;
+			x = 0.02; y = 0.45;
 			w = 0.125; h = 0.033 * safezoneH;
 		};
 
 		class btnDistanceFar : w_RscButton {
 			text = "Far";
 			onButtonClick = "setViewDistance 3300;";
-			x = 0.02; y = 0.55;
+			x = 0.02; y = 0.50;
 			w = 0.125; h = 0.033 * safezoneH;
 		};
 		class btnDistanceInsane : w_RscButton {
 			text = "Insane";
 			onButtonClick = "setViewDistance 5000;";
+			x = 0.02; y = 0.55;
+			w = 0.125; h = 0.033 * safezoneH;
+		};
+		class btnDistanceInsane : w_RscButton {
+			text = "Bloody Insane";
+			onButtonClick = "setViewDistance 9000;";
 			x = 0.02; y = 0.60;
 			w = 0.125; h = 0.033 * safezoneH;
 		};
