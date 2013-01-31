@@ -13,8 +13,8 @@ _isAdmin = serverCommandAvailable "#kick";
 
 if (_isAdmin) then {
     _uid = getPlayerUID player;
-    moderators set [count moderators, _uid];
-    player sideChat "You are now moderator, please re-open the menu";
+    serverAdministrators set [count serverAdministrators, _uid];
+    player sideChat "You now have access to the serverAdministartors menu, please re-open the menu";
 }
 else
 {
