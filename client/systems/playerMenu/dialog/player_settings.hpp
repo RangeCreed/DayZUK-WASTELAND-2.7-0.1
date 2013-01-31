@@ -130,6 +130,14 @@ class playerSettings {
 			x = 0.150; y = 0.68;
 			w = 0.225; h = 0.033 * safezoneH;
 		};
+		
+		class HackedVehiclesButton : w_RscButton {
+			idc = hackedVehiclesButton;
+			text = "Remove Hacked Vehicles";
+			onButtonClick = "[] execVM 'client/systems/adminPanel/deleteAllHackedVehicles.sqf'";
+			x = 0.180; y = 0.68;
+			w = 0.225; h = 0.033 * safezoneH;
+		};
 
 		class btnDistanceNear : w_RscButton {
 			text = "Near";
