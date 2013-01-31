@@ -10,9 +10,6 @@ _news2Title = "HELP FIGHT HACKERS";
 _news2Text = "all players now have access to a menu allowing them to delete hacked vehicles. Press 'U' to access this menu.";
 _infoText = "see the extended news stories @ WASTELANDUK.INFO";
 
-_delay = "15";
-
-
 sleep 5;
 
 if(((getPlayerUID player) in members)) then
@@ -44,7 +41,3 @@ else
 
 	[str ("Welcome!"), str("TIER 0"), str("Join DAYZUK.COM")] spawn BIS_fnc_infoText;
 };
-
-sleep _delay;
-
-_player groupChat format[":: testing sleep as a var];
