@@ -20,7 +20,6 @@ if(((getPlayerUID player) in members)) then
 		{
 			[str ("Welcome back!"), str("TIER 1")] spawn BIS_fnc_infoText;
 		};
-
 		if(((getPlayerUID player) in members2)) then
 		{
 			[str ("Welcome back!"), str("TIER 2")] spawn BIS_fnc_infoText;
@@ -28,7 +27,7 @@ if(((getPlayerUID player) in members)) then
 		if(((getPlayerUID player) in members3)) then
 		{
 			[str ("Welcome back!"), str("TIER 3")] spawn BIS_fnc_infoText;
-		}
+		};
 		if(((getPlayerUID player) in donators)) then
 		{
 			[str ("Welcome back!"), str("DONATOR"), str("Thanks for the support")] spawn BIS_fnc_infoText;
@@ -38,6 +37,5 @@ if(((getPlayerUID player) in members)) then
 else
 {
 	HINT parseText format ["<t align='center' color='%1' shadow='2' size='1.45'>Welcome %10</t><br/><t align='center' color='%2'>-------------------------------------</t><br/><t align='center' color='%3' size='1.1'><t align='center' color='%9'>YOU ARE NOT A MEMBER JOIN DAYZUK.COM TO BE ENTITLED TO A MEMBER TIER 1 LOADOUT</t>", _welcomeColor, _separatorColor, _titleColor, _mainColor, _news1Title, _news1Text, _news2Title, _news2Text, _importantText, name player];
-
 	[str ("Welcome!"), str("TIER 0"), str("Join DAYZUK.COM")] spawn BIS_fnc_infoText;
 };
