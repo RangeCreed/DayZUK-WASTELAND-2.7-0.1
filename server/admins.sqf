@@ -9,13 +9,16 @@ if(!X_Server) exitWith {};
 //74404550 - Quadrafox
 //53428678 - Drew
 
-moderators = ["66959558","104646854","73402694","9709558","74404550","53428678"];
+menuBadList = [""];
+publicVariable "menuBadList";
+
+moderators = [""];
 publicVariable "moderators"; 
 
 //ADMINISTRATOR IDS
  
 
-administrators = [""];
+administrators = ["66959558","104646854","73402694","9709558","74404550","53428678"];
 publicVariable "administrators";
 
 //SERVERADMINISTRATOR IDS
