@@ -38,6 +38,8 @@ hungerLevel = 100;
 
 //REWARD SYS START
 
+if(rewardSys == "true") then
+{
 if(((getPlayerUID player) in members)) then
 {
     _welcomeColor = "#17FF41";
@@ -123,7 +125,7 @@ if(((getPlayerUID player) in members)) then
                     _player setVariable["fuelFull", 1, false];
                     };
         };
-}
+};
 else
 {
 if(str(playerSide) in ["WEST"]) then
