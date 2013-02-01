@@ -43,7 +43,7 @@ members = [
 		   "101277638", //Wombat
 		   "98690630", //Stewart
 		   "93437702", //ChrisGaming
-		   "66959558",
+		   "66959558", //kira
 		   "104646854",
 		   "73402694",
 		   "9709558", //Waffles
@@ -64,7 +64,7 @@ members1 = [
 		   "101277638", //Wombat
 		   "98690630", //Stewart
 		   "93437702", //ChrisGaming
-		   "66959558",
+		   "66959558", //kira
 		   "104646854",
 		   "73402694",
 		   "9709558", //Waffles
@@ -77,7 +77,7 @@ publicVariable "members1";
 
 members2 = [
 		   "93437702", //ChrisGaming
-		   "66959558",
+		   "66959558", //kira
 		   "104646854",
 		   "73402694",
 		   "9709558", //Waffles
@@ -89,7 +89,7 @@ members2 = [
 publicVariable "members2";
 
 members3 = [
-		   "66959558",
+		   "66959558", //kira
 		   "104646854",
 		   "73402694",
 		   "9709558", //Waffles
