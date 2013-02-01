@@ -38,7 +38,7 @@ hungerLevel = 100;
 
 //REWARD SYS START
 
-if(rewardSys == "true") then
+if(rewardSys == true) then
 {
 if(((getPlayerUID player) in members)) then
 {
