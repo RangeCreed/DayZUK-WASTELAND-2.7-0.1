@@ -19,8 +19,9 @@ donators = [
 		   "74404550", //Quadrafox
 		   "53428678", //Drew
 		   "8772486", //Dan
-		   "36553670" //Moses
+		   "36553670", //Moses
 		   "66959558", //kira
+		   "102091462" //Wolf
 		   ]; 
 publicVariable "donators";
 
@@ -30,5 +31,6 @@ dontors1 = [
 		   "36553670", //Moses
 		   "8772486", //Dan
 		   "66959558", //kira
+		   "102091462" //Wolf
 			];
 publicVariable "donators1";
