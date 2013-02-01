@@ -14,6 +14,8 @@ publicVariable "afkSys";
 rewardSys = true;
 publicVariable "rewardSys";
 
+playerDeleteHacked = true;
+publicVariable "playerDeleteHacked";
 
 //---------------------------------------------------------------------------------------//
 //
