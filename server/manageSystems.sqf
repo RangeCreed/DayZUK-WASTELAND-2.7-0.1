@@ -8,11 +8,11 @@ if(!X_Server) exitWith {};
 //
 //--------------------------------------------------------------------------------------//
 
-afkSys = "true";
-publicVariable " afkSys";
+afkSys = true;
+publicVariable "afkSys";
 
-rewardSys = "true";
-publicVariable " rewardSys";
+rewardSys = true;
+publicVariable "rewardSys";
 
 
 //---------------------------------------------------------------------------------------//
@@ -23,16 +23,16 @@ publicVariable " rewardSys";
 //
 //--------------------------------------------------------------------------------------//
 
-afkSysRandomArea = "true";
+afkSysRandomArea = true;
 publicVariable "afkSysRandomArea";
 
-afkSysSetCaptive = "true";
+afkSysSetCaptive = true;
 publicVariable "afkSysSetCaptive";
 
-afkSysRandomArea = "true";
+afkSysRandomArea = true;
 publicVariable "afkSysUseRandomArea";
 
-afkSysStopDamage = "true";
+afkSysStopDamage = true;
 publicVariable "afkSysStopDamage";
 
 afkSysBadList = [
@@ -49,11 +49,11 @@ publicVariable "afkSysBadList";
 //
 //--------------------------------------------------------------------------------------//
 
-rewardSysWelcome = "true";
+rewardSysWelcome = true;
 publicVariable "rewardSysWelcome";
 
-rewardSysCleanup = "true";
+rewardSysCleanup = true;
 publicVariable "rewardSysCleanup";
 
-rewardSysCleanupBalancing = "false";
+rewardSysCleanupBalancing = false;
 publicVariable "rewardSysCleanupBalancing";
