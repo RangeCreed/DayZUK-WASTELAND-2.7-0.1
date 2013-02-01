@@ -62,7 +62,8 @@ if(!isNull(pvar_PlayerTeamKiller)) then {
 
 
 //rewards cleanup ---------------------------- START
-
+if(rewardSys == true) && (rewardSysCleanup == true) then
+{
 if(((getPlayerUID player) in members)) then
 {
     hint format [":: TESTING PERKS SYS :: ANY BACKPACK AND SOME GEAR WAS REMOVED FROM YOUR CORPSE"];
@@ -109,6 +110,11 @@ if(((getPlayerUID player) in members)) then
 else
 {
 	player removeWeapon "ItemRadio";	
+};
+}
+else
+{
+	player commandChat "REWARDS/CLEANUP DISABLED";
 };
 
 //rewards cleanup ---------------------------- END
