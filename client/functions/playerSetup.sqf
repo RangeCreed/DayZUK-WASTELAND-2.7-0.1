@@ -153,7 +153,6 @@ if(str(playerSide) in ["GUER"]) then
     _player selectWeapon "glock17_EP1";
 };
 };
-player commandChat format["Well... we got this far"];
 //REWARD SYS END
 
 _player addrating 1000000;
@@ -163,8 +162,3 @@ _player switchMove "amovpknlmstpsraswpstdnon_gear";
 
 _player groupChat format["Player Initialization Complete"];
 playerSetupComplete = true;
-
-if(rewardSys == "true") then
-{
-player commandChat format["and this far."];
-};
