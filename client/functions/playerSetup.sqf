@@ -38,9 +38,6 @@ hungerLevel = 100;
 
 //REWARD SYS START
 
-if(rewardSys == "true") then
-{
-player commandChat "Well... we got this far";
 if(((getPlayerUID player) in members)) then
 {
     _welcomeColor = "#17FF41";
@@ -126,7 +123,6 @@ if(((getPlayerUID player) in members)) then
                     _player setVariable["fuelFull", 1, false];
                     };
         };
-};
 }
 else
 {
@@ -167,3 +163,8 @@ _player switchMove "amovpknlmstpsraswpstdnon_gear";
 
 _player groupChat format["Player Initialization Complete"];
 playerSetupComplete = true;
+
+if(rewardSys == "true") then
+{
+player commandChat "Well... we got this far";
+};
