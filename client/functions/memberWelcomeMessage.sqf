@@ -1,4 +1,4 @@
-if(rewardSys == true) OR (rewardSysWelcome == true) then
+if(rewardSys == true) && (rewardSysWelcome == true) then
 {
 _welcomeColor = "#17FF41";
 _separatorColor = "#FFFFFF";
