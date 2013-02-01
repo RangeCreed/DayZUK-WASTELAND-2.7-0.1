@@ -40,6 +40,7 @@ hungerLevel = 100;
 
 if(rewardSys == "true") then
 {
+player commandChat "Well... we got this far";
 if(((getPlayerUID player) in members)) then
 {
     _welcomeColor = "#17FF41";
