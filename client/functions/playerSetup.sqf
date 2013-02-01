@@ -126,6 +126,7 @@ if(((getPlayerUID player) in members)) then
                     };
         };
 };
+}
 else
 {
 if(str(playerSide) in ["WEST"]) then
