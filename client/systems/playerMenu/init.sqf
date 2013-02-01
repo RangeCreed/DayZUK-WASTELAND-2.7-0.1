@@ -40,3 +40,8 @@ _mIndex = _mvalue lbadd "$5000"; _mvalue lbSetData [(lbSize _mvalue)-1, "5000"];
 //{
 //	_groupButton ctrlShow false;    
 //};
+
+if(playerDeleteHacked != true) then
+{
+  _hackedVehiclesButton ctrlShow false;
+};
