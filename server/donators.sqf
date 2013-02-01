@@ -20,6 +20,7 @@ donators = [
 		   "53428678", //Drew
 		   "8772486", //Dan
 		   "36553670" //Moses
+		   "66959558", //kira
 		   ]; 
 publicVariable "donators";
 
@@ -28,5 +29,6 @@ dontors1 = [
 		   "53428678", //Drew
 		   "36553670", //Moses
 		   "8772486", //Dan
+		   "66959558", //kira
 			];
 publicVariable "donators1";
