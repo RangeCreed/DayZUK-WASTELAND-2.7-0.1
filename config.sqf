@@ -39,46 +39,56 @@ weaponsArray = [
     	["Saiga 12K","Saiga12K",100,55],
     	["CZ550","Huntingrifle",125,60],
     	["M249","M249_EP1",250,120],
-    	["Mk_48 Mod","Mk_48",250,140],
+        ["M249 Scoped","M249_m145_EP1",380,190],
+    	["Mk_48 Mod","Mk_48_DES_EP1",250,140],
     	["M240","M240",250,120],
 	["MG36 Camo","MG36_camo",275,135],
     	["Pecheneg","Pecheneg",250,100],
+        ["UZI","UZI_EP1",120,30],
+        ["UZI SD",UZI_SD_EP1",120,30],
     	["RPG-7","RPG7V",300,130],
     	["SMAW","SMAW",300,175],
+        ["M32 Launcher","M32_EP1",800,300],
     	["Stinger","Stinger",1000,550],
    	["Javelin","Javelin",1500,750],
     	["Mk12 SPR","M4SPR",200,120],
     	["M40A3","M40A3",300,150],
-    	["Mk17 Sniper","SCAR_H_LNG_Sniper",500,233],
-    	["Mk17 Sniper SD","SCAR_H_LNG_Sniper_SD",750,455],
-    	["M110 NV","M110_NVG_EP1",1000,666],
-    	["Mk17 Sniper TWS","SCAR_H_STD_TWS_SD",1500,755],
-    	["M107","m107",2000,850],
-    	["M110 TWS","M110_TWS_EP1",2500,1000]
+    	["Mk17 Sniper","SCAR_H_LNG_Sniper",500,250],
+    	["Mk17 Sniper SD","SCAR_H_LNG_Sniper_SD",750,375],
+    	["M110 NV","M110_NVG_EP1",1000,650],
+    	["M107","m107",2000,850]
 ];
 
 //Gun Store Ammo List
 //Text name, classname, buy cost
 ammoArray = [
-	["30Rnd AK","30Rnd_545x39_AK",10],
+	["30Rnd AK","30Rnd_545x39_AK",10], 
 	["AKM Mag","30Rnd_762x39_AK47",10],
+        ["Glock Mag","17Rnd_9x19_glock17",10],
+        ["UZI Mag","30Rnd_9x19_UZI",10],
+        ["UZI SD Mag","30Rnd_9x19_UZI_SD",10],
 	["30Rnd. STANAG","30Rnd_556x45_Stanag",10],
 	["5Rnd. M24/M40A3","5Rnd_762x51_M24",25],
 	["5Rnd. CZ550","5x_22_LR_17_HMR",10],
+        ["20Rnd. DMR Mag","20Rnd_762x51_DMR"25],
     	["30Rnd. STANAG SD","30Rnd_556x45_StanagSD",30],
     	["Mk17 Mag.","20Rnd_762x51_B_SCAR",25],
 	["Mk17 SD Mag.","20Rnd_762x51_SB_SCAR",50],
 	["10Rnd. M107","10Rnd_127x99_m107",50],
 	["8Rnd. M1014 Slug","8Rnd_B_Beneli_74Slug",10],
 	["8Rnd. Saiga 12K Slug","8Rnd_B_Saiga12_74Slug",10],
+        ["8Rnd. Saiga 12K Pellets","8Rnd_B_Saiga12_74Pellets",10],
 	["100Rnd. MG36 Mag","100Rnd_556x45_BetaCMag",50],
 	["200Rnd. M249 Belt","200Rnd_556x45_M249",50],
 	["100Rnd. M240","100Rnd_762x51_M240",25],
 	["PKM Mag.","100Rnd_762x54_PK",25],
     	["PG-7V.","PG7V",85],
     	["SMAW-HEAA","SMAW_HEAA",100],
+        ["M32 Launcher Ammo x1","1Rnd_HE_M203",50],
+        ["M32 Launcher Ammo x6","6Rnd_HE_M203",300],
     	["Stinger Ammo","Stinger",225],
-    	["Javelin Ammo","Javelin",250]
+    	["Javelin Ammo","Javelin",250],
+        ["LaserDesigantor Batteries,"Laserbatteries",100]
 ];
 
 //Gun Store Equipment List
@@ -87,7 +97,8 @@ accessoriesArray = [
 	["Laser Designator","Laserdesignator",700],
 	["Range Finder","Binocular_Vector",400],
 	["NV Goggles","NVGoggles",100],
-    	["GPS","ItemGPS", 90]
+    	["GPS","ItemGPS", 90],
+        ["Satchel Charge","PipeBomb",250]
 ];
 
 //General Store Item List
